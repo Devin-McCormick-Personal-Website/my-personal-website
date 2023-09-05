@@ -102,3 +102,18 @@ p {
   margin-left: 2px;
   width: 100%;
 }
+.myProjects {
+  font-size: 3em;
+  color: #ffb606;
+  width: 100%;
+  text-align: center;
+}
+article {
+  font-size: 2em;
+  background-color: #3b3b3b;
+  color: #ffb606;
+  text-align: center;
+  border: 1px solid #b28228;
+  margin-left: 2px;
+  width: 100%;
+}
