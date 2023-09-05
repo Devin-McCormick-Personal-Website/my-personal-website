@@ -45,7 +45,7 @@ footer {
 .icons {
   display: inline-block;
   position: relative;
-  left: 45%;
+  left: 47%;
   /* top: 90%; */
   padding-top: 5px;
 }
@@ -58,8 +58,10 @@ nav :hover {
 .portfolioHead {
   font-size: 3em;
   color: #ffb606;
-  width: 100%;
+  width: 75%;
   text-align: center;
+  position: relative;
+  left: 12%;
 }
 .Gaming {
   font-size: 2em;
@@ -81,4 +83,22 @@ h2 {
 p {
   margin-left: 5px;
   margin-right: 5px;
+}
+.fashion {
+  font-size: 2em;
+  background-color: #3b3b3b;
+  color: #ffb606;
+  text-align: center;
+  border: 1px solid #b28228;
+  margin-left: 2px;
+  width: 100%;
+}
+.sports {
+  font-size: 2em;
+  background-color: #3b3b3b;
+  color: #ffb606;
+  text-align: center;
+  border: 1px solid #b28228;
+  margin-left: 2px;
+  width: 100%;
 }
