@@ -55,3 +55,30 @@ nav :hover {
   color: #1c1c1c;
   text-decoration: underline;
 }
+.portfolioHead {
+  font-size: 3em;
+  color: #ffb606;
+  width: 100%;
+  text-align: center;
+}
+.Gaming {
+  font-size: 2em;
+  background-color: #3b3b3b;
+  color: #ffb606;
+  text-align: center;
+  border: 1px solid #b28228;
+  margin-left: 2px;
+  width: 100%;
+}
+div {
+  background-color: #3b3b3b;
+  padding: 2px;
+}
+h2 {
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
