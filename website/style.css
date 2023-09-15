@@ -52,6 +52,9 @@ h1 {
 }
 footer {
   width: 100%;
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: center;
 }
 .icons {
   /* places the icons on the middle and bottom of every page */
@@ -96,7 +99,7 @@ h2 {
   margin-left: 5px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3rem;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 p {
   margin-left: 5px;
@@ -141,7 +144,7 @@ article {
 }
 .mainHeader {
   display: flex;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   justify-content: center;
   width: 100%;
 }
