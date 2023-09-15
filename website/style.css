@@ -153,6 +153,7 @@ header {
 .gamingArticle {
   color: #ffb606;
   font-size: 3em;
+  padding: 10px;
   display: flex;
   justify-content: left;
   border: 1px solid #b28228;
@@ -166,7 +167,7 @@ header {
   border: 1px solid #b28228;
   width: 45%;
   position: absolute;
-  left: 52%;
+  left: 53%;
   top: 54%;
   padding: 5px;
 }
