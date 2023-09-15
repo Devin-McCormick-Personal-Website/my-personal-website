@@ -6,25 +6,36 @@ html {
 .name {
   /* styling and placement of my name in the top left of every page */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-
+  font-size: 4rem;
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: center;
   width: 100%;
-  color: #b28228;
+  color: #1c1c1c;
   left: 10px;
   top: 1px;
 }
+
+.homeHeader {
+  background-color: #b28228;
+}
+
 nav {
-  /* places the nav links in the top right */
-  float: right;
+  /* places the nav links in the top */
+  /* float: right; */
+  /* border: 1px red solid; */
+  display: flex;
+  justify-content: space-evenly;
   font-size: 3rem;
-  color: #ffb606;
+  text-decoration: none;
 }
 .homePage {
   /* all styling for the homepage text */
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2rem;
-  position: relative;
+  /* display: flex; */
+  /* position: relative; */
   width: 100%;
   text-align: center;
   background-color: #3b3b3b;
@@ -34,13 +45,16 @@ nav {
 }
 a {
   text-decoration: none;
-  color: #b28228;
+  color: #1c1c1c;
 }
 h1 {
   font-size: 2em;
 }
 footer {
   width: 100%;
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: center;
 }
 .icons {
   /* places the icons on the middle and bottom of every page */
@@ -53,8 +67,8 @@ footer {
 nav :hover {
   /* added highlight on hover to the nav links */
   cursor: pointer;
-  background-color: #b28228;
-  color: #1c1c1c;
+  background-color: #1c1c1c;
+  color: #b28228;
   text-decoration: underline;
 }
 .portfolioHead {
@@ -83,7 +97,9 @@ div {
 h2 {
   /* styling for all the secondary headers */
   margin-left: 5px;
-  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  /* border: 1px red solid; */
 }
 p {
   margin-left: 5px;
@@ -124,5 +140,11 @@ article {
   text-align: center;
   border: 1px solid #b28228;
   margin-left: 2px;
+  width: 100%;
+}
+.mainHeader {
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: center;
   width: 100%;
 }
