@@ -155,17 +155,18 @@ header {
   font-size: 3em;
   display: flex;
   justify-content: left;
-  border: 1px red solid;
+  border: 1px solid #b28228;
   text-align: center;
   width: 50%;
   height: 100%;
 }
 #Overwatch {
   display: flex;
-  justify-content: center;
-  border: 1px red solid;
-  width: 50%;
-  position: relative;
-  left: 40%;
-  top: 40%;
+  justify-content: end;
+  border: 1px solid #b28228;
+  width: 45%;
+  position: absolute;
+  left: 52%;
+  top: 54%;
+  padding: 5px;
 }
