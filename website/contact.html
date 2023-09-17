@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./javascript.js"></script>
+    <!-- link to javascript -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- link to css-->
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="homeHeader">
+      <span class="name">Devin McCormick</span>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <!-- navigation to the other pages of my website-->
+    </header>
+    <body>
+      <form id="contact" action="./success.html">
+        <label for="fname">First name</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Your name..."
+        /><br />
+        <label for="email">Email Address</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email..."
+        /><br />
+        <label for="textarea">Message:</label><br />
+        <!-- <input type="textarea" id="textarea" name="textarea" placeholder="Your message..."> -->
+        <textarea
+          rows="6"
+          cols="25"
+          name="message"
+          form="contact"
+          placeholder="Your message here..."
+        ></textarea
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </body>
+  </body>
+</html>
