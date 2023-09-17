@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <!-- link to css-->
-    <title>Home</title>
+    <title>Contact</title>
   </head>
-  <body>
+  
     <header class="homeHeader">
       <span class="name">Devin McCormick</span>
       <nav>
@@ -23,30 +23,47 @@
     <body>
       <form id="contact" action="./success.html">
         <label for="fname">First name</label><br />
-        <input
-          type="text"
-          id="fname"
-          name="fname"
-          placeholder="Your name..."
-        /><br />
+        <section class="fname">
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Your name..."
+          /><br />
+        </section>
+        <label for="lname">Last Name</label><br />
+        <section class="lname">
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Your name..."
+          />
+        </section>
         <label for="email">Email Address</label><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Your email..."
-        /><br />
+        <section class="emailInput">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email..."
+          /><br />
+        </section>
         <label for="textarea">Message:</label><br />
         <!-- <input type="textarea" id="textarea" name="textarea" placeholder="Your message..."> -->
-        <textarea
-          rows="6"
-          cols="25"
-          name="message"
-          form="contact"
-          placeholder="Your message here..."
-        ></textarea
-        ><br />
-        <input type="submit" value="Submit" />
+        <section class="textarea">
+          <textarea
+            rows="6"
+            cols="25"
+            name="message"
+            form="contact"
+            placeholder="Your message here..."
+          ></textarea>
+        </section>
+        <br />
+        <section class="submitSection">
+          <input type="submit" value="Submit" class="submitButton" />
+        </section>
       </form>
     </body>
   </body>
