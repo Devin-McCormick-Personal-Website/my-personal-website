@@ -262,7 +262,7 @@ form {
   width: 70%;
   height: 100px;
   transition: width 2s;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 .textarea:hover {
   width: 100%;
