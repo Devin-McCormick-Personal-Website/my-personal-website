@@ -233,6 +233,7 @@ form {
   color: #ffb606;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+/* adding transition effect */
 .textarea {
   display: flex;
   width: 70%;
