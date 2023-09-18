@@ -220,6 +220,40 @@ form {
   color: #ffb606;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+/* sizing of the first image of portfolio */
+.hollowknight {
+  width: 80%;
+  margin: 5px;
+  /* border: 1px red solid; */
+  /* padding: 5px; */
+  display: flex;
+  justify-content: center;
+}
+.headerImage {
+  width: 100%;
+  /* border: 1px red solid; */
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+/* layout for the second and third resume images of portfolio */
+.resumeImage {
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 5px;
+}
+/* layout for the last image in portfolio */
+.websiteImage {
+  display: flex;
+  /* border: 1px red solid; */
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 5px;
+=======
 /* adding transition effect */
 .textarea {
   display: flex;
@@ -235,4 +269,6 @@ form {
   width: 100%;
   display: flex;
   justify-content: center;
+
 }
+
