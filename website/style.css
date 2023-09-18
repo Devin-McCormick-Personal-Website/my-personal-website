@@ -254,7 +254,15 @@ form {
   justify-content: space-evenly;
   padding: 5px;
   margin: 5px;
+=======
+/* adding transition effect */
+.textarea {
+  display: flex;
+  width: 70%;
+  height: 100px;
+  transition: width 2s;
 }
+
 /* adding transition effect */
 .textarea {
   display: flex;
@@ -264,6 +272,7 @@ form {
   transition: width 2s;
   /* border: 1px red solid; */
 }
+
 .textarea:hover {
   width: 100%;
 }
@@ -272,6 +281,7 @@ form {
   width: 100%;
   display: flex;
   justify-content: center;
+
 }
 article:nth-child(odd) {
   background-color: #b28228;
@@ -279,3 +289,4 @@ article:nth-child(odd) {
   border: #3b3b3b 1px solid;
   border-radius: 10px;
 }
+
