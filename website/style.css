@@ -93,10 +93,10 @@ nav :hover {
   /* left: 12%; */
 }
 
-div {
+/* div {
   background-color: #3b3b3b;
   padding: 2px;
-}
+} */
 
 p {
   margin-left: 5px;
@@ -138,6 +138,7 @@ article {
   border: 1px solid #b28228;
   margin-left: 2px;
   width: 100%;
+  border-radius: 10px;
 }
 .mainHeader {
   display: flex;
@@ -269,4 +270,10 @@ form {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+article:nth-child(odd) {
+  background-color: #b28228;
+  color: #1c1c1c;
+  border: #3b3b3b 1px solid;
+  border-radius: 10px;
 }
