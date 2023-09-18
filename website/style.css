@@ -84,33 +84,20 @@ nav :hover {
 .portfolioHead {
   /* styling for the intro header of the about page */
   font-size: 3em;
+  display: flex;
   color: #ffb606;
-  width: 75%;
+  justify-content: center;
   text-align: center;
-  position: relative;
-  left: 12%;
+  margin: 10px;
+  /* position: relative; */
+  /* left: 12%; */
 }
-.Gaming {
-  /* styling for gaming section */
-  font-size: 2em;
-  background-color: #3b3b3b;
-  color: #ffb606;
-  text-align: center;
-  border: 1px solid #b28228;
-  margin-left: 2px;
-  width: 100%;
-}
+
 div {
   background-color: #3b3b3b;
   padding: 2px;
 }
-h2 {
-  /* styling for all the secondary headers */
-  margin-left: 5px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
-  /* border: 1px red solid; */
-}
+
 p {
   margin-left: 5px;
   margin-right: 5px;
