@@ -258,9 +258,11 @@ form {
 /* adding transition effect */
 .textarea {
   display: flex;
+  justify-content: center;
   width: 70%;
   height: 100px;
   transition: width 2s;
+  border: 1px red solid;
 }
 .textarea:hover {
   width: 100%;
